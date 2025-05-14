@@ -24,18 +24,18 @@ Crear un endpoint que identifique direcciones que cumplan TODAS las reglas de va
 
 7. Mayúsculas: La primera letra de cada palabra debe ser mayúscula.
 
-## Requerimientos del Endpoint
+## Requerimientos
 
 1. El endpoint se debe llamar /direcciones-validas
 
-- Debe devolver solo los clientes cuyas direcciones cumplen TODAS las reglas.
+   - Debe devolver solo los clientes cuyas direcciones cumplen TODAS las reglas.
 
-- Formato de respuesta (sin incluir id ni direccion):
+   - Formato de respuesta (sin incluir id ni direccion):
 
-2.  Configuración
-    Puerto configurable por variable de entorno (PORT).
+2. Configuración
+   Puerto configurable por variable de entorno (PORT).
 
-3.  Estrcutura de archivos
+3. Estrcutura de archivos
 
 ```
 src/
